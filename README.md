@@ -113,8 +113,8 @@ sudo snap install heroku --classic
 # indicar que essa aplicação será executada com base no guincorn
 ### criar o arquivo Procfile e inserir --> web: gunicorn setup.wsgi
 
-### iniciar o repositorio github
-### git init caso não exista
+### iniciar o repositorio github // o projeto deve estar no github
+### git init 
 ### heroku git:remote -a drf-django-clientes
 ### git add .
 ### git commit -m "deploy of projects clientes"
